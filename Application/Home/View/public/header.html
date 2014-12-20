@@ -1,0 +1,39 @@
+
+<div id="header">
+	<!-- 页面顶部 -->
+<div class="top1">
+	<p class="fl" style="background:url(/Public/images/hot.png) 107px 10px no-repeat; padding-right:35px;"><span class="blue">专业的IT培训机构！</span></p>
+	<p class="fr"><a href="http://www.itcast.cn/channel/job.shtml" target="_blank">就业宣言</a><a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">报名流程</a><a href="http://open.itcast.cn" target="_blank">免费公开课</a><a href="http://dvd.itcast.cn" target="_blank">免费学习光盘</a><a href="http://www.itcast.cn/channel/book.shtml" target="_blank">原创教材</a><a href="http://bbs.itcast.cn/zine.php" target="_blank">传智特刊</a><a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a><a href="http://bbs.itcast.cn" target="_blank">技术论坛</a></p>
+</div>
+
+	<div class="clear"></div>
+	<div class="top2">
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Public/images/login.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<div class="fl toubu">
+	
+			 <!-- 校区 -->
+<p><a href="http://www.itcast.cn" target="_blank">北京校区</a></p>
+<p><a target="_blank" href="http://sh.itcast.cn">上海校区</a></p>
+<p><a href="http://gz.itcast.cn" target="_blank">广州校区</a></p><br />
+<p><a target="_blank" href="http://wh.itcast.cn">武汉校区</a></p>
+<p><a href="http://cd.itcast.cn" target="_blank">成都校区</a></p>
+<p><a href="http://zz.itcast.cn" target="_blank">郑州校区</a></p><br />
+<p><a href="http://xa.itcast.cn" target="_blank">西安校区</a></p>
+<!-- 校区 --> 
+		</div>
+		<p class="fr"><img src="/Public/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
+	</div>
+	<div class="clear"></div>
+	       <foreach name="data[nav]" item="it">
+        <ul id="nav"> 
+        <li style="margin-right: 20px">
+            <if condition="$it.nav_id neq  8"> 
+                 <a href='/index.php/{$it['nav_url']}' id="{$it.nav_css_id}" >{$it.nav_name}</a>
+                <else /> <a href='http://www.bbs.com/'>{$it.nav_name}</a>         
+            </if>
+                </li>
+                
+        </ul>
+        </foreach>
+	</div>
+		

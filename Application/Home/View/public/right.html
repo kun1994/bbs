@@ -1,0 +1,108 @@
+
+		<div id="right" class="fl">	
+		<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
+<div class="jyjb-left">
+
+<?php foreach($data[classa] as $k1=>$v1){?>
+<ul>
+  <li style="color: rgb(81, 81, 81); border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; float: left;"><a 
+  href="http://php.itcast.cn/php/course/base.shtml"><b><FONT style="color: rgb(81, 81, 81);"><?php echo $v1['c_name']?></font></b></a></li>
+  <br></ul>
+<ul style="clear: both;">
+	<?php foreach($data[peixun] as $k=>$val) { 
+        if($val['c_id']==$v1['c_id']) {
+      ?> 
+  <li><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank">
+  <?php if($val['static']==1){?>
+  <span 
+  class="time jyjb-font1"><b>爆满已开班</b></span>
+  <?php } elseif($val['static']==0){?>
+  <span 
+  class="time jyjb-font2"><b>预约报名</b></span>
+  <?php }?>
+  <?php echo $val['p_title']?></a></li>
+  <?php }
+  }?>
+  
+ </ul>
+ <?php } ?>
+</div>
+			<div class="rightbottom"><img src="/Public/images/rightbottom.jpg"  /></div>	
+			 <?php if(!empty($data['zhao'])) {?>
+			<h4 class="righttitle1 zhaopin"><span class="blue">最新</span>企业招聘</h4>
+			<div class="rightkuang1">
+			<p class="cent"> <img src="/Public/images/select.jpg"  width="256" height="66" /></p>
+                      <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
+<tbody>
+<foreach name="data[zhao]" item="it">
+	<tr>
+	<td class="td1" width="73%"><a href="http://www.itcast.cn/news/20141201/16233788127.shtml" target="_blank">{$it.s_name}</a></td>
+	<td width="11%">{$it.number}</td>
+	</tr>
+	</foreach>
+</tbody>
+</table>
+
+             <div class="clear"></div>
+				
+			</div>
+			<div class="rightbottom"><img src="/Public/images/bottom1.gif"  /></div>
+			 <?php }?>
+			 <?php if(!empty($data['que'])) {?>
+			<h4 class="righttitle1 zhaopin" style="margin-top:3px;"><span class="blue">常见</span>问题</h4>
+		  <div class="rightkuang1" style="padding-top:18px;">
+			<ul class="zhaopinlist wenti">
+			
+              <ul class="zhaopinlist wenti">
+		<foreach name="data[que]" item="val">
+<li><a href="http://php.itcast.cn/news/20130723/11245447222.shtml" target="_blank">{$val.question}</a><img height="15" src="/Public/images/new.gif" width="29" /></li>
+</foreach>
+</ul>
+
+          </ul> 
+			<div class="clear"></div>
+				 <p class="text-r"><a href="/php/question.shtml"><img src="/Public/images/jiantoumore.gif"  border="0" /></a></p>
+		  </div>
+			<div class="rightbottom"><img src="/Public/images/bottom1.gif"  /></div>
+			 <?php }?>
+			<h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
+			
+			<div class="rightkuang">
+			 <dl>
+	<dt style="padding-bottom:20px;">
+		宇哥情感专线</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=1151694540&site=qq&menu=yes" target="_blank"><img alt="宇哥情感专线" border="0" height="27" src="/Public/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=1151694540&site=qq&menu=yes" target="_blank"><img alt="宇哥情感专线" border="0" height="27" src="/Public/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqtwo">
+	<dt style="padding-bottom:20px;">
+		博哥发泄专区</dt>
+	<dd style=" width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=1343454666&site=qq&menu=yes" target="_blank"><img alt="博哥发泄专区" border="0" height="27" src="/Public/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style=" width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=1343454666&site=qq&menu=yes" target="_blank"><img alt="博哥发泄专区" border="0" height="27" src="/Public/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqthree">
+	<dt style="padding-bottom:20px;">
+		爽妹问题热线</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=992809993&site=qq&menu=yes" target="_blank"><img alt="爽妹问题热线" border="0" height="27" src="/Public/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=992809993&site=qq&menu=yes" target="_blank"><img alt="爽妹问题热线" border="0" height="27" src="/Public/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqfour">
+	<dt style="padding-bottom:20px;">
+		猪妖二逼专线</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=1072437504&site=qq&menu=yes" target="_blank"><img alt="猪妖二逼专线" border="0" height="27" src="/Public/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://wpa.qq.com/msgrd?v=1&uin=1072437504&site=qq&menu=yes" target="_blank"><img alt="猪妖二逼专线" border="0" height="27" src="/Public/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+
+			<div class="clear"></div>
+			</div>
+			<div class="rightbottom"><img src="/Public/images/rightbottom.jpg"  /></div>
+	  </div>
+	

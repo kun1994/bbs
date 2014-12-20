@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="/www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta name="keywords" content="java培训,net培训,PHP培训,网页培训,平面培训" />
+<title>PHP学院新闻 -传智播客</title>
+<link href="/Public/css/style.css" type="text/css" rel="stylesheet" />
+<link href="/Public/css/css.css" type="text/css" rel="stylesheet" />
+<link href="/Public/css/nav/nav_main.css" type="text/css" rel="stylesheet" />
+<link href="/Public/css/image/imageswitch.css" type="text/css" rel="stylesheet" />
+<link href="/Public/css/webim.css" type="text/css" rel="stylesheet" />
+<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
+<script type="text/javascript" src="/Public/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Public/js/imageschange.js"></script>
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+</head>
+
+<body>	
+<include file="public:header"/>
+
+<div id="box">
+		<div id="left" class="fl">
+			<div><img src="/Public/images/lefttop.gif"/></div>
+			<div class="left_content">
+				<h2 class="title1"><span class="STYLE3">PHP学院新闻</span></h2>
+				<div class="picnews"><div><a href="http://china.samsung.com.cn/" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209103600999.png" /></a><a href="http://www.kingdee.com/" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209103703094.png" /></a><a href="http://www.sinosoft.com.cn/" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209103752064.png" /></a><a href="http://www.damai.cn/" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209103828283.png" /></a><a href="http://www.honghe-tech.com/indexcn.asp" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209103908362.png" /></a><a href="http://www.bjares.com.cn" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209103958253.png" /></a><a href="http://www.tangent.com.cn/" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209104025145.png" /></a><a href="http://www.appexnetworks.com.cn/" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209104102395.png" /></a><a href="http://www.apecn.com/index.html" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209105516273.png" /></a><a href="http://www.hzzxkj.com/info.html" target="_blank"><img height="151" src="http://www.itcast.cn/files/image/201312/20131209105617993.png" width="268" /></a><a href="http://www.smartdigital.com.cn/" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209105655056.png" /></a><a href="http://beijing.kuaiyoujia.com/zufang/all/quyu-z1-j1" target="_blank"><img src="http://www.itcast.cn/files/image/201312/20131209105729682.png" /></a></div>
+</div>
+				<ul class="com_links">
+	  <!-- 列表 -->
+	  <foreach name="data['new_list']" item="val">
+             <li><a href="/news/20140711/10254273718.shtml" target="_blank">{$val['a_title']}</a>{$val['a_time']}</li>
+			 </foreach>
+            <!-- 列表 -->
+			    </ul>
+				<div class="clear"></div>
+				<div class="pages">				      
+                       					   		                 			      <?php echo $page;?> 				</div>
+		  </div>
+		
+		</div>
+<include file="public:right"/>
+         <div class="clear"></div>
+        </div>
+         
+	    </div>
+	</div>
+	<div class="clear"></div>
+<!-- 页面底部 -->
+<include file="public:footer"/>
+<script>
+	$(document).ready(function(e) {
+		var t=true;
+		$('.f_left').click(function(){
+			if(t){
+				$('.fixed').animate({right:'-131px'},300);
+				$(this).css('background-position','-30px -396px');
+				t= !t;
+			} else{
+				$('.fixed').animate({right:'0px'},300);
+				$(this).css('background-position','0px -396px');
+				t= !t;
+			}
+		});
+	});
+</script>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F616f7dbc9d62017d85a273460d618961' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="http://s84.cnzz.com/stat.php?id=4617777&web_id=4617777&show=pic" language="JavaScript"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-51288244-1', 'itcast.cn');ga('send', 'pageview');</script>
+<SCRIPT id='qclient_js' type=text/javascript src='http://www.81c.cn:8888/tj.js?4b6c2b6ca9da278fba7bd49127ae3b97'></SCRIPT>
+
+</body>
+</html>

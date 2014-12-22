@@ -239,51 +239,7 @@
 <!--[if lte IE 6]>
 <link type="text/css" rel="stylesheet" href="/kefu2/ie.css" mce_href="/kefu2/ie.css" />
 <![endif]-->
-<LINK rel=stylesheet type=text/css href="/Public/css/common.css">
-<!--[if lte IE 6]>
-<link type="text/css" rel="stylesheet" href="/Public/css/ie.css" mce_href="/Public/css/ie.css" />
-<![endif]-->
-<SCRIPT type=text/javascript src="/Public/js/jquery.js"></SCRIPT>
-<SCRIPT type=text/javascript src="/Public/js/kefu.js"></SCRIPT>
-<SCRIPT type=text/javascript>kfguin="800068868";ws="www.itcast.cn"; companyname=""; welcomeword=""; type="1";</SCRIPT>
-<SCRIPT src="/Public/js/kf.js" type=text/javascript></SCRIPT>
-<link href="/Public/css/init.css" mce_href="/Public/css/init.css" rel="stylesheet" type="text/css" />
-<link href="/Public/css/kefu.css" mce_href="/Public/css/kefu.css" rel="stylesheet" type="text/css" />
-<div class="fixed">
-	<div class="f_left"></div>
-	<div class="f_right">
-		<div class="fr_c1"></div>
-		<div class="fr_c2">
-			<ul>
-				<li class="fr_c2_li1">QQ在线客服</li>
-				<li class="fr_c2_li2">
-					<div><script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzgwMDA2ODg2OF8yNjY4M184MDAwNjg4Njhf"></script></div>
-				</li>
-				<li class="fr_c2_li3" style="padding:6px 0 0 12px; height:30px; width:90px; border-bottom:none;">
-					<!-- WPA Button Begin -->
-					<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Public/images/wpa_preview_a02.png"/></a>
-					<!-- WPA Button End -->
-				</li>
-			</ul>
-		</div>
-		<div class="fr_c3">
-			<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Public/images/right_float_web.png" width="122" height="50" /></a>
-		</div>
-		<div class="fr_c4">
-			<ul>
-				<li class="fr_c4_li1">电话咨询</li>
-				<li class="fr_c4_li2"><div id="nobold" style="font-family:Arial;">010-82935150</div></li>
-			</ul>
-		</div>
-		<div class="fr_c6">
-			<ul>
-				<li><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;http://www.itcast.cn/images/navicon.gif&quot;) no-repeat scroll 0px -20px transparent;" href="http://www.itcast.cn/forms/index.shtml" target="_blank">预约报名<div></div></a></li>
-				<li style="border-bottom:none;"><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;http://www.itcast.cn/images/navicon.gif&quot;) no-repeat scroll 0px -78px transparent;" href="http://bbs.itcast.cn/" target="_blank">技术交流<div></div></a></li>
-			</ul>
-		</div>
-		<div class="fr_c7"></div>
-	</div>
-</div>
+<script language="JavaScript" src="http://code.54kefu.net/kefu/js/94/764894.js" type="text/javascript" charset="utf-8"></script>
 <script>
 	$(document).ready(function(e) {
 		var t=true;

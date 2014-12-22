@@ -41,7 +41,7 @@ class PersonController extends Controller {
     }
 	//招聘信息添加处理页面
 	public function addpro(){
-		$code = $_POST['verify_code'];
+		$code = $_POST['verify'];
          $Verify = new \Think\Verify();
          if(empty($Verify->check($code,$id=''))){
               $this->error("验证码错误");
@@ -66,7 +66,7 @@ class PersonController extends Controller {
 			}else{
 				$this->error("添加失败");
 			}
-         }	
+         }
 	}
 
 }

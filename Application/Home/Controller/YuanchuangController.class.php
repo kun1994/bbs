@@ -4,7 +4,7 @@ namespace Home\Controller;
 use Think\Controller;
 
 
-class YuanchuangController extends Controller {
+class YuanchuangController extends PvController {
     public function index(){
         $link = M("ebook");
 

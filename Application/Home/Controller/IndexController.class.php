@@ -4,7 +4,7 @@ namespace Home\Controller;
 use Think\Controller;
 
 
-class IndexController extends Controller {
+class IndexController extends PvController {
  
 	//首页数据显示
      public function Index(){

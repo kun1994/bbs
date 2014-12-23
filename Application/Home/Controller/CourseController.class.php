@@ -3,7 +3,7 @@
 namespace Home\Controller;
 use Think\Controller;
 
-class CourseController extends Controller {
+class CourseController extends PvController{
 
 	//PHP培训课程首页
 	public function index(){

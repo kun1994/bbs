@@ -233,4 +233,25 @@ class AdminController extends Controller {
 		$this->assign("data",$data);
 		$this->display("class");
 	}
+	//访问量
+	function pv(){
+		$pv = M("pv");
+		$data = $pv->select();
+		//print_r($data);die;
+		$y = "";
+		foreach($data as $key=>$val){
+			$y.=$val['pv_count'].",";
+		}
+		 $x="";
+		foreach($data as $key=>$val){
+			$x.="'".$val['pv_time']."',";
+		}
+		$x=trim($x,","); 
+		$y= trim($y,",");
+		//print_r($y);die;
+		$this->assign("x",$x);
+		$this->assign("y",$y);
+		$this->display();
+	}
+
 }

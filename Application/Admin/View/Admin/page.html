@@ -1,0 +1,31 @@
+<table class="table table-bordered table-hover definewidth m10">
+    <thead>
+    <tr>
+		<th>用户编号</th>
+        <th>用户名称</th>
+        <th>机构名称</th>
+        <th>状态</th>
+
+        <th>管理操作</th>
+    </tr>
+    </thead>
+	     <tbody>
+		 	 <foreach name="data" item="is">
+		 <tr>
+	
+		
+			<td>{$is.b_id}</td>
+            <td>{$is.b_name}</td>
+            <td>{$is.f_name}</td>
+            <td>{$is.status}</td>
+			<td>
+                  <a href="#">编辑</a>
+                  <a href="#" onclick="deletea({$is.b_id})">删除</a>
+
+            </td>
+		
+        </tr>
+			</foreach></tbody></table>
+<div class="inline pull-right page">
+ {$str}
+</div>

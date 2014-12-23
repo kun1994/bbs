@@ -3,7 +3,7 @@
 namespace Home\Controller;
 use Think\Controller;
 
-class PublicController extends Controller {
+class PublicController extends PvController {
 
 	//PHP培训课程首页
 	public function headera() {

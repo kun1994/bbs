@@ -3,7 +3,7 @@
 namespace Home\Controller;
 use Think\Controller;
 
-class TeacherController extends Controller {
+class TeacherController extends PvController {
 
     //师资力量
     public function index(){

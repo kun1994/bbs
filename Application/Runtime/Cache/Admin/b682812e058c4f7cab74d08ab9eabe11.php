@@ -112,7 +112,7 @@
   <script type="text/javascript" src="/files/config-min.js"></script>
   <script>
     BUI.use('common/main',function(){
-      var config = [{id:'1',menu:[{text:'前台管理',items:[{id:'12',text:'用户列表',href:'/admin/admin/user'},{id:'3',text:'添加用户',href:'/admin/admin/adduser'},{id:'11',text:'学院信息',href:'/admin/admin/stu_article'},{id:'6',text:'菜单管理',href:'/admin/admin/menu'},{id:'6',text:'开班信息',href:'/admin/admin/classs'},{id:'6',text:'PHP培训课程',href:'Menu/index.html'},{id:'6',text:'学院消息',href:'Menu/index.html'},{id:'6',text:'校园动态',href:'Menu/index.html'},{id:'6',text:'论坛热帖',href:'Menu/index.html'}]}]},{id:'7',homePage : '9',menu:[{text:'业务管理',items:[{id:'9',text:'查询业务',href:'Node/index.html'}]}]}];
+      var config = [{id:'1',menu:[{text:'前台管理',items:[{id:'12',text:'用户列表',href:'/admin/admin/user'},{id:'3',text:'添加用户',href:'/admin/admin/adduser'},{id:'4',text:'访问量',href:'/admin/admin/pv'},{id:'11',text:'学院信息',href:'/admin/admin/stu_article'},{id:'6',text:'菜单管理',href:'/admin/admin/menu'},{id:'6',text:'开班信息',href:'/admin/admin/classs'},{id:'6',text:'PHP培训课程',href:'/admin/Course/index.html'},{id:'6',text:'学院消息',href:'Menu/index.html'},{id:'6',text:'校园动态',href:'/admin/School/index.html'},{id:'6',text:'论坛热帖',href:'Menu/index.html'}]}]},{id:'7',homePage : '9',menu:[{text:'业务管理',items:[{id:'9',text:'查询业务',href:'Node/index.html'}]}]}];
       new PageUtil.MainPage({
         modulesConfig : config
     });

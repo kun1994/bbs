@@ -3,7 +3,7 @@
 namespace Home\Controller;
 use Think\Controller;
 header("content-type:text/html;charset=utf-8");
-class PersonController extends Controller {
+class PersonController extends PvController {
 
 	//人才服务首页
      public function index(){

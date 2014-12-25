@@ -8,5 +8,6 @@
         'DB_PWD'    => 'root', // 密码
         'DB_PORT'   => 3306, // 端口
         'DB_PREFIX' => '', // 数据库表前缀 
+		'URL_HTML_SUFFIX' => 'html|shtml|xml' , //伪静态
 	
     );

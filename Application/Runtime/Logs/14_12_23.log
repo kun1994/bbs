@@ -6831,3 +6831,80 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2014-12-23T20:54:45+08:00 ] 127.0.0.1 /admin/admin/classs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `peixun` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `peixun` INNER JOIN class ON peixun.c_id= class.c_id   [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined index: nav_id D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 66 行.
+NOTIC: [8] Undefined variable: str D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\52eacb99872d6f32d181e69f8522b0e7.php 第 74 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-23T20:54:54+08:00 ] 127.0.0.1 /admin/Course/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `course` INNER JOIN class ON course.c_id = class.c_id   [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 59 行.
+NOTIC: [8] Undefined variable: is D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 59 行.
+NOTIC: [8] Undefined variable: is D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 59 行.
+NOTIC: [8] Undefined variable: is D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 59 行.
+NOTIC: [8] Undefined variable: is D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 59 行.
+NOTIC: [8] Undefined variable: is D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 59 行.
+NOTIC: [8] Undefined variable: is D:\xampp\htdocs\bbs\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 59 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-23T20:55:10+08:00 ] 127.0.0.1 /admin/admin/user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `b_user` [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `b_user` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `b_user` INNER JOIN user_class ON b_user.b_class = user_class.f_id  LIMIT 0,5   [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
